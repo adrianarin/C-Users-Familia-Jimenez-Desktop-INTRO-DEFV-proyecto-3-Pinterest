@@ -29,7 +29,7 @@
 .primero{
     padding: 0px;
 }
-.iCono_Pinterest img{
+.iCono_Pinterest img, .yo2 img{
     height: 30px;
     width: 30px; 
 }
@@ -103,7 +103,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding:  0x!important;
+    padding:  0px!important;
 }
 .sexto img , .septimo img , .octavo img{
     width: 25px;
@@ -121,14 +121,13 @@
     outline: none;
     width: 94%;
 }
-.main{
+main{
     margin-top: 80px;
     width: 100%;
     column-count: 5;  
-
 }
 /*background-color: rgb(199, 29, 29); hover*/
-.imagenes30 img button{
+.imagenes30 button{
     font-size: 16px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
@@ -150,7 +149,7 @@
     border-radius: 25px;
     border: none;
 }
-.imagenes30 imag button#Opciones{    
+.imagenes30 button#Opciones{    
     display: flex;
     right: 17px;
     bottom:20px;    
@@ -162,15 +161,15 @@
     height: 32px;
     width: 32px;
 }
-.imagenes30 img button#Opciones svg{    
+.imagenes30 button#Opciones svg{    
 height: 16px;
 width: 16px;
 }
-.imagenes30 img button#Opciones:hover{    
+.imagenes30 button#Opciones:hover{    
     background-color: rgb(233, 233, 233);
     cursor: pointer;
 }
-.imagenes30 img button#Download{    
+.imagenes30 button#Download{    
     display: flex;
     right: 59px;
     bottom:20px;    
@@ -182,25 +181,25 @@ width: 16px;
     height: 32px;
     width: 32px;
 }
-.imagenes30 img button#Download svg{    
+.imagenes30 button#Download svg{    
     height: 16px;
     width: 16px;
 }
-.imagenes30 img button#Download:hover{    
+.imagenes30 button#Download:hover{    
     background-color: rgb(233, 233, 233);
     cursor: pointer;
 }
-.imagenes30 img:hover {
+.imagenes30:hover {
     cursor: zoom-in;    
     filter: brightness(59%);
 }
 
-.imagenes30 img:hover> button{
+.imagenes30:hover> button{
     visibility: visible;    
 }
 
 
-.imagenes30 img {
+.imagenes30 {
     width: 250px;
     display: flex;
     column-count: 5;
