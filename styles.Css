@@ -1,0 +1,216 @@
+#principal{
+    width: 98vw; 
+    height: 70px;
+    padding: 15px 16px 4px 16px;
+    display:flex;
+    position: fixed;
+    flex-direction: row;
+    top: 0px;
+    background-color: aliceblue;
+    z-index: 1;
+}
+#principal ul{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+#principal ul:hover{
+    cursor: pointer;
+}
+#principal ul li{
+    list-style-type: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    padding: 0px 16px;
+}
+.primero{
+    padding: 0px;
+}
+.iCono_Pinterest img{
+    height: 30px;
+    width: 30px; 
+}
+.iCono_Pinterest {
+    height: 50PX;
+    width: 50PX;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iCono_Pinterest:hover{
+    background-color: gray;
+    border-radius: 50px;
+}
+.segundo{
+    display: flex;
+    height: 48px;
+    background-color: black;
+    border-radius: 23px;
+    align-items: center;
+    color: white;
+}
+.cuarto .cuartoopc li a{
+ padding: 5px 0px;    
+}
+.cuarto .cuartoopc li:hover{
+    background-color: aliceblue;
+}
+.cuarto:hover .cuartoopc{
+    margin-top: 2px;
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    width: 165px!important;
+    padding: 10px 5px;
+    border-radius: 11px;
+}
+.cuarto:hover .cuartoopc li{
+    width: 123px;
+    background-color: antiquewhite;
+    display: flex;
+    margin: 2px;
+    align-self: flex-start;
+    border-radius: 11px;
+}
+.cuartoopc li{
+    display: none;
+}
+.quinto{
+    padding: 0px 8px!important;
+}
+.lupa{
+    background-color: gray;
+    height: 50px;
+    border-radius: 23px;
+    width: 60vw;
+    display: flex;
+    align-items: center;
+}
+.lupa:focus-within{
+    border: 5px solid cyan;
+}
+.lupa svg{
+    padding: 0px 3px 0px 16px;
+    width: 24px;
+    height: 24px;
+}
+.sexto , .septimo , .octavo{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:  0x!important;
+}
+.sexto img , .septimo img , .octavo img{
+    width: 25px;
+    height: 25px;    
+}
+.finder{
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    padding: 0px;
+    font-weight: normal;
+    height: 100%;
+    outline: none;
+    width: 94%;
+}
+.main{
+    margin-top: 80px;
+    width: 100%;
+    column-count: 5;  
+
+}
+/*background-color: rgb(199, 29, 29); hover*/
+.imagenes30 img button{
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-weight: 500;
+    visibility: hidden;
+}
+.imagenes30 button#Save:hover{    
+    background-color: rgb(199, 29, 29);
+    cursor: pointer;
+}
+.imagenes30 #Save{    
+    display: flex;
+    right: 17px;
+    top:20px;
+    color: white;
+    background-color: rgb(247, 17, 17);
+    position: absolute;    
+    padding: 12px 16px;
+    border-radius: 25px;
+    border: none;
+}
+.imagenes30 imag button#Opciones{    
+    display: flex;
+    right: 17px;
+    bottom:20px;    
+    background-color: rgb(155, 146, 146);
+    position: absolute;    
+    padding: 8px 8px;
+    border-radius: 25px;
+    border: none;
+    height: 32px;
+    width: 32px;
+}
+.imagenes30 img button#Opciones svg{    
+height: 16px;
+width: 16px;
+}
+.imagenes30 img button#Opciones:hover{    
+    background-color: rgb(233, 233, 233);
+    cursor: pointer;
+}
+.imagenes30 img button#Download{    
+    display: flex;
+    right: 59px;
+    bottom:20px;    
+    background-color: rgb(155, 146, 146);
+    position: absolute;    
+    padding: 8px 8px;
+    border-radius: 25px;
+    border: none;
+    height: 32px;
+    width: 32px;
+}
+.imagenes30 img button#Download svg{    
+    height: 16px;
+    width: 16px;
+}
+.imagenes30 img button#Download:hover{    
+    background-color: rgb(233, 233, 233);
+    cursor: pointer;
+}
+.imagenes30 img:hover {
+    cursor: zoom-in;    
+    filter: brightness(59%);
+}
+
+.imagenes30 img:hover> button{
+    visibility: visible;    
+}
+
+
+.imagenes30 img {
+    width: 250px;
+    display: flex;
+    column-count: 5;
+    flex-wrap: wrap;    
+    position: relative;    
+    overflow: hidden;
+   
+}
+.imagenes30 img {
+    width: 250px;  
+    margin: 5px;
+    border-radius: 20px;
+}
